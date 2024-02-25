@@ -3,11 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <title>Form - Input</title>
-  <link rel="stylesheet" href="https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="../../css/reset.css?ver=1">
+  <link rel="stylesheet" href="https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="./content.css">
 </head>
 <body>
-  <input placeholder="" type="text" name="" id="">
+  <form action="" method="GET">
+    <input type="text" placeholder="아이디를 입력하세요" maxlength="13" minlength="5" required>
+    <input type="email" placeholder="이메일을 입력하세요">
+    <input type="password" placeholder="비밀번호를 입력하세요" minlength="6">
+    <input type="url">
+    <input type="number" min="12" max="122">
+    <input type="file" accept=".png,.jpg">
+    <button>Submit</button>
+  </form>
 </body>
 </html>
