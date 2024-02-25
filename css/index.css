@@ -20,3 +20,6 @@ section li {
 a {
   color: #0e834c;
 }
+ol {
+  margin-bottom: 10px;
+}
